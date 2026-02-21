@@ -1,0 +1,61 @@
+/* style.css */
+
+body{
+    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: monospace;
+    color: blue;
+}
+
+hr{
+    background: transparent;
+	display: block;
+    width: 40%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+.splash{
+    width:100%;
+    height:250px;
+    background-color: rgb(168, 36, 36);
+    background-image: url("cat1.jpg");
+    object-fit: fill;
+}
+
+.title{
+    width: 30%;
+    margin:auto;
+}
+
+.description{
+    width: 30%;
+    margin:auto;
+}
+
+.documentation{
+    width: 30%;
+    margin:auto;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image{
+    margin: 10px;
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    
+}
+.thumbnail{
+    object-fit: none;
+}
+
+.image:hover{
+    box-shadow: 0 0 2px 1px darkgrey;
+}
